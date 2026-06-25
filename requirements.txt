@@ -1,0 +1,13 @@
+# Document extraction
+python-docx>=1.1
+pypdf>=4.0
+python-pptx>=0.6
+
+# LLM integration
+anthropic>=0.28
+
+# Testing
+pytest>=8.0
+
+# Optional – needed only for the PDF test stub hint
+# fpdf2>=2.7
