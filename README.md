@@ -40,8 +40,8 @@ cd team-exercise
 
 # 2. Create a virtual environment and install dependencies
 python -m venv .venv
-.venv\Scripts\Activate.ps1      
-pip install -r requirements.txt  # python -m pip install -r requirements.txt       
+.venv\Scripts\Activate.ps1       # Windows: .venv\Scripts\activate
+pip install -r requirements.txt  # if this doesn't work, try: python -m pip install -r requirements.txt 
 
 # 3. Set your Anthropic API key (needed for the LLM step)
 export ANTHROPIC_API_KEY=sk-...  # Windows: set ANTHROPIC_API_KEY=sk-...
